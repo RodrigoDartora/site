@@ -1,0 +1,48 @@
+/* Define as propriedades da classe container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Define as propriedades da classe message */
+.message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Define as propriedades dos campos de entrada */
+input[type="text"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Define as propriedades do botão de login */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Define as propriedades do botão de login quando o mouse estiver sobre ele */
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
